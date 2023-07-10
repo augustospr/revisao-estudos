@@ -8,6 +8,7 @@ export default function PesquisaPokemon() {
 			<Grid container justifyContent={"center"}>
 				<Paper
 					component="form"
+					onSubmit={(e) => e.preventDefault()}
 					sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
 				>
 					<InputBase
